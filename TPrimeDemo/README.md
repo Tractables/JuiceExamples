@@ -5,4 +5,12 @@ Based on notebook presented at [TPrime Social](https://nips.cc/Conferences/2019/
 
 ### Requirements
 
-1. Follow the instructions to install required packages from https://github.com/Juice-jl/ProbabilisticCircuits.jl.
+1. Install [Julia](https://julialang.org/) and [Jupyter notebooks](https://jupyter.org)
+
+2. Install CSV and Statistics Packages. For example, run `` julia -e 'using Pkg; Pkg.add("CSV")' `` to install CSV.
+
+3. Install Juice packages: Juice packages are not registered yet so follow the installation instructions from [ProbabilisticCircuits.jl](https://github.com/Juice-jl/ProbabilisticCircuits.jl).
+
+
+### How to run
+1. To run a jupyter notebook, first run `jupyter notebook .` in the command line, then a browser tab opens in which you can navigate and open the notebook to run. For more details refer to [this guide](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/execute.html).
