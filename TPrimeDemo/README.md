@@ -5,11 +5,19 @@ Based on notebook presented at [TPrime Social](https://nips.cc/Conferences/2019/
 
 ### Requirements
 
-1. Install [Julia](https://julialang.org/) and [Jupyter notebooks](https://jupyter.org)
+1. Install [Julia](https://julialang.org/). Version 1.2+.
 
-2. Install CSV and Statistics Packages. For example, run `` julia -e 'using Pkg; Pkg.add("CSV")' `` to install CSV.
+2. Install [Jupyter](https://jupyter.org). The classic jupyter notebook is enough for our case.
 
-3. Install Juice packages: Juice packages are not registered yet so follow the installation instructions from [ProbabilisticCircuits.jl](https://github.com/Juice-jl/ProbabilisticCircuits.jl).
+3. Install [IJulia](https://github.com/JuliaLang/IJulia.jl). This adds Julia kernels inside juypter notebooks.
+
+4. Install CSV and Statistics Packages. Run: 
+
+```bash
+  julia -e 'using Pkg; Pkg.add("CSV"); Pkg.add("Statistics");' 
+```
+
+5. Install Juice packages: Juice packages are not registered yet so follow the installation instructions from [ProbabilisticCircuits.jl](https://github.com/Juice-jl/ProbabilisticCircuits.jl).
 
 
 ### How to run
