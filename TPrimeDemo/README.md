@@ -1,6 +1,10 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Juice-jl/JuiceExamples/master?filepath=TPrimeDemo%2FT-Prime-Juice-Demo.ipynb)
+
 ## TPrime Demo
 
 Based on notebook presented at [TPrime Social](https://nips.cc/Conferences/2019/Schedule?showEvent=15972) at NeurIPS 2019. Showcasing few usecases of the Juice library.
+
+For easy use, just click on the binder badge above and it would launch the notebook with requirements setup in your browser, thanks to [Binder](https://mybinder.org/).
 
 
 ### Requirements
