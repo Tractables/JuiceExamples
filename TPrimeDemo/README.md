@@ -2,9 +2,20 @@
 
 ## TPrime Demo
 
-Based on notebook presented at [TPrime Social](https://nips.cc/Conferences/2019/Schedule?showEvent=15972) at NeurIPS 2019. Showcasing few usecases of the Juice library.
+Based on a demo, originally presented at [TPrime Social](https://nips.cc/Conferences/2019/Schedule?showEvent=15972) at NeurIPS 2019. Showcasing few usecases of the Juice library.
 
-For easy use, just click on the binder badge above and it would launch the notebook with requirements setup in your browser, thanks to [Binder](https://mybinder.org/).
+
+
+### How to run
+
+1. For a quick demo, you can click on the badge on top of this readme to launch a notebook in your browser with the environment. This is thanks to [Binder](https://mybinder.org/).
+
+
+2. To setup the environment needed to run the notebook locally, follow the instructions below to setup the requirements. Then, run command below to start jupyter. A browser tab opens, navigate to the demo notebook and open it, now it should be ready to run.
+
+  ```bash
+  jupyter notebook .
+  ```
 
 
 ### Requirements
@@ -24,5 +35,5 @@ For easy use, just click on the binder badge above and it would launch the noteb
 5. Install Juice packages: Juice packages are not registered yet so follow the installation instructions from [ProbabilisticCircuits.jl](https://github.com/Juice-jl/ProbabilisticCircuits.jl).
 
 
-### How to run
-1. To run a jupyter notebook, first run `jupyter notebook .` in the command line, then a browser tab opens in which you can navigate and open the notebook to run. For more details refer to [this guide](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/execute.html).
+For more details about jupyter notebooks refer to [this guide](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/execute.html).
+
